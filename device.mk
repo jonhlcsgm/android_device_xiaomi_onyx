@@ -143,6 +143,14 @@ PRODUCT_VENDOR_PROPERTIES += \
     dalvik.vm.usap_pool_enabled=true \
     dalvik.vm.usap_pool_size_max=5
 
+# DebugFS
+PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
+
+# Dex2oat (Compile SystemServer & SystemUI on device with `speed`)
+PRODUCT_SYSTEM_PROPERTIES += \
+    dalvik.vm.systemservercompilerfilter=speed \
+    dalvik.vm.systemuicompilerfilter=speed
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
