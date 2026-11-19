@@ -13,7 +13,15 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 # Inherit from onyx device
 $(call inherit-product, device/xiaomi/onyx/device.mk)
 
-PRODUCT_NAME := lineage_onyx
+# RR flags
+TARGET_SUPPORTS_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_HAS_UDFPS := true
+WITH_GMS := true
+WITH_DUCK_RKP := true
+RR_MAINTAINER := jonhlcsgm
+
+PRODUCT_NAME := rr_onyx
 PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
@@ -29,10 +37,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Flags
-
-RR_MAINTAINER := jonhlcsgm
-WITH_GMS := true
-TARGET_ENABLE_BLUR := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
