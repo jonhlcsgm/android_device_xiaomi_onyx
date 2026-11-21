@@ -17,3 +17,6 @@ allow hal_audio_default vendor_persist_sensors_file:dir { open read search write
 allow hal_audio_default vendor_persist_sensors_file:file { open read };
 allow hal_audio_default hal_mediaeventgatherservice_service:service_manager find;
 allow hal_audio_default hal_micharge_service:service_manager find;
+
+# Dolby
+hal_client_domain(hal_audio_default, hal_aidl_dms)

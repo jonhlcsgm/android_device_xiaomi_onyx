@@ -2,6 +2,10 @@
 ro.product.property_source_order=odm,vendor,product,system_ext,system
 
 # Audio
+audio.spatializer.pose_predictor_type=2
+audio.spatializer.prediction_duration_ms=50
+persist.vendor.audio.effectimplenter=dolby
+persist.vendor.audio.spatializer.enable=false
 persist.vendor.audio.fpsop.game.effect.speaker=false
 persist.vendor.audio.fpsop.game.effect.switch=true
 persist.vendor.audio.fpsop.game.effect=true

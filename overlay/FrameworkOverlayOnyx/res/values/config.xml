@@ -879,4 +879,6 @@
     <!-- Default value for fp screen off unlock toggle, it only works for the devices that support
          fp screen off unlock-->
     <bool name="config_screen_off_udfps_default_on">true</bool>
+    <!-- Default head tracking for spatial audio -->
+    <bool name="config_spatial_audio_head_tracking_enabled_default">true</bool>
 </resources>
