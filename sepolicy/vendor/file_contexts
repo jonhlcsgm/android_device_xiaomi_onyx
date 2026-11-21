@@ -106,3 +106,6 @@
 /vendor/bin/hw/vendor\.dolby\.dms\.service u:object_r:hal_aidl_dms_default_exec:s0
 /vendor/bin/hw/vendor\.dolby\.media\.c2-default-service-dax u:object_r:mediacodec_exec:s0
 /vendor/bin/hw/android\.hardware\.media\.c2-mi-service u:object_r:mediacodec_exec:s0
+
+# SeaAudio
+/(odm|vendor/odm)/bin/hw/vendor\.xiaomi\.hardware\.seaaudio-service u:object_r:hal_seaaudio_default_exec:s0

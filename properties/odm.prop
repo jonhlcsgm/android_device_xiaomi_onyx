@@ -2,6 +2,8 @@
 ro.product.property_source_order=odm,vendor,product,system_ext,system
 
 # Audio
+ro.vendor.audio.seaaudio.model=true
+ro.vendor.seaaudio.model=/odm/etc/TcnRecordmodel_8735_w8a16pcq_qnn2_29_0_nhwc.minn
 audio.spatializer.pose_predictor_type=2
 audio.spatializer.prediction_duration_ms=50
 persist.vendor.audio.effectimplenter=dolby

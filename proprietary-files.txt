@@ -3610,3 +3610,11 @@ vendor/etc/media_codecs_mi_c2_audio.xml
 vendor/etc/media_codecs_performance_tuna_v0.xml
 vendor/etc/media_codecs_tuna_v0.xml
 vendor/etc/media_tuna_v0/video_system_specs.json
+
+# SeaAudio (ported from unmoved21)
+odm/bin/hw/vendor.xiaomi.hardware.seaaudio-service
+odm/etc/TcnRecordmodel_8735_w8a16pcq_qnn2_29_0_nhwc.minn
+odm/etc/init/vendor.xiaomi.hardware.seaaudio.rc
+odm/etc/vintf/manifest/vendor.xiaomi.hardware.seaaudio.xml
+odm/lib64/vendor.xiaomi.hardware.seaaudio-V1-ndk.so
+vendor/lib64/libRecordCNN.so
